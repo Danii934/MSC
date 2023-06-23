@@ -5,7 +5,7 @@
 }
 button{
     cursor: pointer;
-    color: unset;
+    color: black;
 }
 html{
     scroll-behavior: smooth;
