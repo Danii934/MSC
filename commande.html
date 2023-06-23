@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/commande.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Page de Commande</title>
+</head>
+<body>
+    <h1>Où devons-nous envoyer cette commande</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eligendi qui facilis minima voluptatum officiis ipsam architecto, reiciendis debitis hic quae numquam quam repellat error eius cum velit, voluptatem aliquid!</p>
+    <div>
+    <form>
+        <span>Adresse de Facturation</span>
+        <div class="dispose">
+                <div>
+                    <label for="nom">Nom</label><br>
+                    <input name="nom" id="nom" type="text">
+                </div>
+                <div>
+                    <label for="prenom">Prenom</label><br>
+                    <input name="prenom" id="prenom" type="text">
+                </div>
+            </div>
+                <p>
+                        <label for="mail">E-mail</label><br>
+                        <input name="mail" id="mail" type="email">
+                    </p>
+                    
+                    <p>
+                        <label for="address">Adresse</label><br>
+                        <input name="address" id="address" type="text">
+                    </p>
+                    <div class="dispose">
+                        <div>
+                            <label for="region">Region</label><br>
+                            <input type="text" name="region" id="region">
+                            </div>
+                            <div>
+                            <label for="ville">Ville</label><br>
+                            <input type="text" name="ville" id="ville">
+                            </div>
+                    </div>
+                    <div class="dispose">
+                        <div>
+                            <label for="postcode">Code Postal</label><br>
+                            <input type="text" name="postcode" id="postcode">
+                            </div>
+                            <div>
+                            <label for="num">Numero</label><br>
+                            <div class="numero">
+                                <input type="text" name="code" id="code">
+                                <input type="text" name="num" id="num">
+                            </div>
+                            </div>
+                    </div>
+                
+                <div>    
+                <p>
+                    <input type="checkbox" id="consent">
+                    <label for="consent"> J'approuve</label><br>
+                </p>
+                <p>
+                    <input type="checkbox" id="account">
+                    <label for="account">Je crée un compte pour 10% de réduc</label>
+                </p>
+            </div>
+        <input type="submit" value="Suivant -&gt;">
+    </form>
+    </div>
+    <script src="commande.js"></script>
+</body>
+</html>
